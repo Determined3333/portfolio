@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DeterminEd — Эдуард</title>
+  <meta name="description" content="Эдуард — Frontend, WordPress и Tilda. Верстка, сайты под ключ, доработки." />
+  <meta name="theme-color" content="#0C0C0B" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="nav-bar">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">DE</span>
+        <span class="logo-text">DeterminEd</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#about">Обо мне</a>
+        <a href="#work">Работы</a>
+        <a href="#services">Услуги</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary btn-sm">Обсудить задачу</a>
+      </div>
+      <button type="button" class="menu-btn" id="menu-btn" aria-label="Открыть меню" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <nav style="padding:0.75rem">
+        <a href="#about">Обо мне</a>
+        <a href="#work">Работы</a>
+        <a href="#services">Услуги</a>
+        <a href="#contact">Контакты</a>
+        <a href="#contact" class="btn btn-primary">Обсудить задачу</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="hero-animate">
+        <p class="font-mono text-xs text-muted uppercase" style="letter-spacing:0.18em">Frontend / WordPress / Tilda · freelance</p>
+        <h1 class="font-display text-5xl leading-tight tracking-tight" style="margin:1.25rem 0 0">
+          Сайты,<br />которые нужны.
+        </h1>
+        <p class="text-lg text-muted" style="margin:1.5rem 0 0; max-width:28rem">
+          Эдуард — DeterminEd. Верстка, WordPress, Tilda и доработки без хаоса: в срок, с кодом, который удобно поддерживать.
+        </p>
+        <div class="hero-animate-delay" style="margin-top:2rem; display:flex; flex-wrap:wrap; gap:0.75rem">
+          <a href="#work" class="btn btn-primary btn-lg">Смотреть работы</a>
+          <a href="#contact" class="btn btn-outline btn-lg">Получить оценку</a>
+        </div>
+      </div>
+      <div class="hero-card hero-animate hero-animate-delay-2">
+        <div class="hero-card-top">
+          <div>
+            <p class="font-mono text-xs text-muted">// determined</p>
+            <p class="font-display text-4xl tracking-tight" style="margin:1rem 0 0">Эдуард</p>
+            <p class="text-muted" style="margin:0.5rem 0 0">HTML · CSS · JS · WordPress · Tilda</p>
+          </div>
+          <div class="hero-avatar-wrap">
+            <img src="images/avatar.jpg" alt="Эдуард" class="hero-avatar" width="96" height="96" />
+          </div>
+        </div>
+        <dl class="stats">
+          <div><dt>заказов</dt><dd>50+</dd></div>
+          <div><dt>рейтинг Kwork</dt><dd>5.0</dd></div>
+          <div><dt>вовремя</dt><dd>100%</dd></div>
+          <div><dt>повторных</dt><dd>71%</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container about-grid" style="display:grid; gap:3rem">
+      <div class="reveal">
+        <p class="section-label">01 — Обо мне</p>
+        <h2 class="font-display text-4xl tracking-tight" style="margin:1rem 0 0">
+          Коммерческая вёрстка, WordPress и Tilda — сайты, которые решают задачу клиента.
+        </h2>
+      </div>
+      <div class="text-muted reveal reveal-delay-2" style="display:flex; flex-direction:column; gap:1.25rem">
+        <p>Сверстаю адаптив по Figma, соберу на WordPress, Elementor или Tilda, исправлю баги и доработаю функционал. Работаю аккуратно — чтобы сайт можно было развивать дальше, а не переписывать.</p>
+        <p>Фокус: чистый код, скорость, адаптив и понятная структура. Без лишнего шума — с вниманием к деталям, которые влияют на продажи.</p>
+        <div style="display:flex; flex-wrap:wrap; gap:0.5rem; padding-top:0.5rem">
+          <a href="https://kwork.ru/user/determined3" target="_blank" rel="noreferrer" class="pill">Kwork · determined3</a>
+          <span class="pill text-muted">Постоянные клиенты</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stack -->
+  <section id="stack" class="section" style="background:var(--surface)">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">02 — Стек</p>
+        <h2 class="font-display text-4xl tracking-tight" style="margin:1rem 0 0">Инструменты</h2>
+      </div>
+      <div class="stack-grid">
+        <article class="stack-card reveal-scale reveal-delay-1">
+          <h3 class="text-lg" style="margin:0">Frontend</h3>
+          <div style="margin-top:1.25rem; display:flex; flex-wrap:wrap; gap:0.5rem">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS / SCSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Bootstrap 5</span>
+            <span class="tag">Gulp</span>
+          </div>
+        </article>
+        <article class="stack-card reveal-scale reveal-delay-2">
+          <h3 class="text-lg" style="margin:0">CMS / Конструкторы</h3>
+          <div style="margin-top:1.25rem; display:flex; flex-wrap:wrap; gap:0.5rem">
+            <span class="tag">WordPress</span>
+            <span class="tag">Elementor</span>
+            <span class="tag">Tilda</span>
+            <span class="tag">Кастомные темы</span>
+            <span class="tag">ACF</span>
+          </div>
+        </article>
+        <article class="stack-card reveal-scale reveal-delay-3">
+          <h3 class="text-lg" style="margin:0">Процесс</h3>
+          <div style="margin-top:1.25rem; display:flex; flex-wrap:wrap; gap:0.5rem">
+            <span class="tag">Figma</span>
+            <span class="tag">Git</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Адаптив</span>
+            <span class="tag">Скорость</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work -->
+  <section id="work" class="section">
+    <div class="container">
+      <div class="reveal" style="display:flex; flex-direction:column; gap:1.5rem">
+        <div>
+          <p class="section-label">03 — Портфолио</p>
+          <h2 class="font-display text-4xl tracking-tight" style="margin:1rem 0 0">Избранные работы</h2>
+        </div>
+        <div style="display:flex; flex-wrap:wrap; gap:0.5rem">
+          <button type="button" class="filter-btn active" data-filter="all">Все</button>
+          <button type="button" class="filter-btn" data-filter="full">Под ключ</button>
+          <button type="button" class="filter-btn" data-filter="layout">Вёрстка</button>
+          <button type="button" class="filter-btn" data-filter="wordpress">WordPress</button>
+          <button type="button" class="filter-btn" data-filter="tilda">Tilda</button>
+          <button type="button" class="filter-btn" data-filter="fix">Доработки</button>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+        <a href="projects/quanta.html" class="project-card reveal-scale reveal-delay-1" data-categories="tilda layout full">
+          <div class="thumb"><img src="images/quanta.png" alt="Quanta System" loading="lazy" /></div>
+          <div class="body">
+            <p class="text-xs text-muted uppercase" style="letter-spacing:0.05em">Tilda · лендинг</p>
+            <h3>Quanta System</h3>
+            <div style="margin-top:1rem; display:flex; flex-wrap:wrap; gap:0.5rem">
+              <span class="tag-sm">Tilda</span><span class="tag-sm">Zero Block</span>
+            </div>
+          </div>
+        </a>
+        <a href="projects/kviziks.html" class="project-card reveal-scale reveal-delay-2" data-categories="layout full">
+          <div class="thumb"><img src="images/kviziks.png" alt="Квизикс" loading="lazy" /></div>
+          <div class="body">
+            <p class="text-xs text-muted uppercase" style="letter-spacing:0.05em">Вёрстка · продукт</p>
+            <h3>Квизикс</h3>
+            <div style="margin-top:1rem; display:flex; flex-wrap:wrap; gap:0.5rem">
+              <span class="tag-sm">HTML</span><span class="tag-sm">SCSS</span><span class="tag-sm">JS</span>
+            </div>
+          </div>
+        </a>
+        <a href="projects/prolife.html" class="project-card reveal-scale reveal-delay-3" data-categories="layout full">
+          <div class="thumb"><img src="images/prolife.png" alt="ProLife Home Care" loading="lazy" /></div>
+          <div class="body">
+            <p class="text-xs text-muted uppercase" style="letter-spacing:0.05em">Вёрстка · корпоративный</p>
+            <h3>ProLife Home Care</h3>
+            <div style="margin-top:1rem; display:flex; flex-wrap:wrap; gap:0.5rem">
+              <span class="tag-sm">HTML</span><span class="tag-sm">CSS</span><span class="tag-sm">JS</span>
+            </div>
+          </div>
+        </a>
+        <a href="projects/mstry.html" class="project-card reveal-scale reveal-delay-4" data-categories="layout">
+          <div class="thumb"><img src="images/mstry.png" alt="MSTRY" loading="lazy" /></div>
+          <div class="body">
+            <p class="text-xs text-muted uppercase" style="letter-spacing:0.05em">Вёрстка</p>
+            <h3>MSTRY</h3>
+            <div style="margin-top:1rem; display:flex; flex-wrap:wrap; gap:0.5rem">
+              <span class="tag-sm">HTML</span><span class="tag-sm">SCSS</span><span class="tag-sm">JS</span>
+            </div>
+          </div>
+        </a>
+        <a href="projects/cryptosell.html" class="project-card reveal-scale reveal-delay-5" data-categories="layout">
+          <div class="thumb"><img src="images/cryptosell.png" alt="Cryptosell" loading="lazy" /></div>
+          <div class="body">
+            <p class="text-xs text-muted uppercase" style="letter-spacing:0.05em">Вёрстка · сервис</p>
+            <h3>Cryptosell</h3>
+            <div style="margin-top:1rem; display:flex; flex-wrap:wrap; gap:0.5rem">
+              <span class="tag-sm">HTML</span><span class="tag-sm">CSS</span><span class="tag-sm">JS</span>
+            </div>
+          </div>
+        </a>
+        <a href="projects/proficash.html" class="project-card reveal-scale reveal-delay-6" data-categories="layout">
+          <div class="thumb"><img src="images/proficash.png" alt="ProfiCash" loading="lazy" /></div>
+          <div class="body">
+            <p class="text-xs text-muted uppercase" style="letter-spacing:0.05em">Вёрстка · сервис</p>
+            <h3>ProfiCash</h3>
+            <div style="margin-top:1rem; display:flex; flex-wrap:wrap; gap:0.5rem">
+              <span class="tag-sm">HTML</span><span class="tag-sm">CSS</span><span class="tag-sm">JS</span>
+            </div>
+          </div>
+        </a>
+        <a href="projects/dyson.html" class="project-card reveal-scale reveal-delay-6" data-categories="layout wordpress">
+          <div class="thumb"><img src="images/dyson.png" alt="Dyson Service" loading="lazy" /></div>
+          <div class="body">
+            <p class="text-xs text-muted uppercase" style="letter-spacing:0.05em">Вёрстка · WordPress</p>
+            <h3>Dyson Service</h3>
+            <div style="margin-top:1rem; display:flex; flex-wrap:wrap; gap:0.5rem">
+              <span class="tag-sm">HTML</span><span class="tag-sm">CSS</span><span class="tag-sm">WordPress</span>
+            </div>
+          </div>
+        </a>
+        <a href="projects/sklaadio.html" class="project-card reveal-scale reveal-delay-6" data-categories="layout wordpress">
+          <div class="thumb"><img src="images/sklaadio.png" alt="Склаадио" loading="lazy" /></div>
+          <div class="body">
+            <p class="text-xs text-muted uppercase" style="letter-spacing:0.05em">Вёрстка · WordPress</p>
+            <h3>Склаадио</h3>
+            <div style="margin-top:1rem; display:flex; flex-wrap:wrap; gap:0.5rem">
+              <span class="tag-sm">HTML</span><span class="tag-sm">SCSS</span><span class="tag-sm">WordPress</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section" style="background:var(--surface)">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">04 — Услуги</p>
+        <h2 class="font-display text-4xl tracking-tight" style="margin:1rem 0 0">Что можно заказать</h2>
+        <p class="text-sm text-muted" style="margin:0.75rem 0 0; max-width:28rem">Цены ориентировочные — итог зависит от объёма задачи.</p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card reveal-scale reveal-delay-1">
+          <span class="font-mono text-xs text-muted">01</span>
+          <h3 class="text-xl" style="margin:0.75rem 0 0">Вёрстка по макету</h3>
+          <p class="text-muted" style="margin:0.5rem 0 0; flex:1">Адаптив из Figma. Чистый HTML/SCSS/JS, кроссбраузерность.</p>
+          <div style="margin-top:1.5rem; display:flex; align-items:center; justify-content:space-between">
+            <span class="price">от 5 000 ₽</span>
+            <a href="#contact" class="text-sm text-muted">Заказать</a>
+          </div>
+        </article>
+        <article class="service-card reveal-scale reveal-delay-2">
+          <span class="font-mono text-xs text-muted">02</span>
+          <h3 class="text-xl" style="margin:0.75rem 0 0">Доработка сайта</h3>
+          <p class="text-muted" style="margin:0.5rem 0 0; flex:1">Правки, новый функционал, формы, ускорение, баги.</p>
+          <div style="margin-top:1.5rem; display:flex; align-items:center; justify-content:space-between">
+            <span class="price">от 1 500 ₽</span>
+            <a href="#contact" class="text-sm text-muted">Заказать</a>
+          </div>
+        </article>
+        <article class="service-card reveal-scale reveal-delay-3">
+          <span class="font-mono text-xs text-muted">03</span>
+          <h3 class="text-xl" style="margin:0.75rem 0 0">Сайт на WordPress</h3>
+          <p class="text-muted" style="margin:0.5rem 0 0; flex:1">Многостраничный сайт на кастомной теме или Elementor.</p>
+          <div style="margin-top:1.5rem; display:flex; align-items:center; justify-content:space-between">
+            <span class="price">от 15 000 ₽</span>
+            <a href="#contact" class="text-sm text-muted">Заказать</a>
+          </div>
+        </article>
+        <article class="service-card reveal-scale reveal-delay-4">
+          <span class="font-mono text-xs text-muted">04</span>
+          <h3 class="text-xl" style="margin:0.75rem 0 0">Сайт на Tilda</h3>
+          <p class="text-muted" style="margin:0.5rem 0 0; flex:1">Лендинг или многостраничник на Tilda: Zero Block, анимации, формы.</p>
+          <div style="margin-top:1.5rem; display:flex; align-items:center; justify-content:space-between">
+            <span class="price">от 8 000 ₽</span>
+            <a href="#contact" class="text-sm text-muted">Заказать</a>
+          </div>
+        </article>
+        <article class="service-card reveal-scale reveal-delay-5">
+          <span class="font-mono text-xs text-muted">05</span>
+          <h3 class="text-xl" style="margin:0.75rem 0 0">Сайт под ключ</h3>
+          <p class="text-muted" style="margin:0.5rem 0 0; flex:1">От макета до запуска: вёрстка, WordPress или Tilda, формы, хостинг.</p>
+          <div style="margin-top:1.5rem; display:flex; align-items:center; justify-content:space-between">
+            <span class="price">от 25 000 ₽</span>
+            <a href="#contact" class="text-sm text-muted">Заказать</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <div class="container contact-grid" style="display:grid; gap:3rem">
+      <div class="reveal">
+        <p class="section-label">05 — Контакты</p>
+        <h2 class="font-display text-4xl tracking-tight" style="margin:1rem 0 0">Расскажите о задаче — отвечу в течение дня.</h2>
+        <p class="text-muted" style="margin:1.25rem 0 0; max-width:24rem">
+          Вёрстка, WordPress, Tilda, доработка или сайт под ключ. Напишите в Telegram — обсудим объём, сроки и стоимость.
+        </p>
+      </div>
+      <div class="reveal reveal-delay-2" style="display:flex; flex-direction:column; gap:0.75rem">
+        <a href="https://t.me/DeterminEd3" target="_blank" rel="noreferrer" class="contact-link">
+          <span>
+            <span class="text-sm text-muted" style="display:block">Telegram</span>
+            <span class="text-lg">@DeterminEd3</span>
+          </span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-muted"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+        <a href="https://kwork.ru/user/determined3" target="_blank" rel="noreferrer" class="contact-link">
+          <span>
+            <span class="text-sm text-muted" style="display:block">Kwork</span>
+            <span class="text-lg">determined3</span>
+          </span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-muted"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+        <a href="https://t.me/DeterminEd3" target="_blank" rel="noreferrer" class="btn btn-primary btn-lg" style="height:3.5rem">Написать в Telegram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div style="display:flex; align-items:center; gap:0.75rem">
+        <span class="logo-mark" style="width:2rem;height:2rem;font-size:0.7rem">DE</span>
+        <span class="text-sm">DeterminEd · Эдуард</span>
+      </div>
+      <p class="text-sm text-muted" style="margin:0">Frontend / WordPress / Tilda</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
