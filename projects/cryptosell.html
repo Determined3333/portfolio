@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cryptosell — DeterminEd</title>
+  <meta name="description" content="Интерфейс обменника криптовалюты с выбором направлений и курсов." />
+  <meta name="theme-color" content="#0C0C0B" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-bar">
+      <a href="../index.html" class="logo">
+        <span class="logo-mark">DE</span>
+        <span class="logo-text">DeterminEd</span>
+      </a>
+      <nav class="nav-links">
+        <a href="../index.html#about">Обо мне</a>
+        <a href="../index.html#work">Работы</a>
+        <a href="../index.html#services">Услуги</a>
+        <a href="../index.html#contact">Контакты</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="../index.html#contact" class="btn btn-primary btn-sm">Обсудить задачу</a>
+      </div>
+      <button type="button" class="menu-btn" id="menu-btn" aria-label="Открыть меню" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <nav style="padding:0.75rem">
+        <a href="../index.html#about">Обо мне</a>
+        <a href="../index.html#work">Работы</a>
+        <a href="../index.html#services">Услуги</a>
+        <a href="../index.html#contact">Контакты</a>
+        <a href="../index.html#contact" class="btn btn-primary">Обсудить задачу</a>
+      </nav>
+    </div>
+  </header>
+
+  <article class="project-page">
+    <div class="container reveal" style="max-width:48rem">
+      <a href="../index.html#work" class="back-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Все работы
+      </a>
+      <p class="text-xs text-muted uppercase" style="margin-top:2rem; letter-spacing:0.05em">Вёрстка · сервис</p>
+      <h1 class="font-display text-5xl tracking-tight" style="margin:0.75rem 0 0">Cryptosell</h1>
+      <p class="text-lg text-muted" style="margin:1.25rem 0 0">Интерфейс обменника криптовалюты с выбором направлений и курсов.</p>
+      <div style="margin-top:1.5rem; display:flex; flex-wrap:wrap; gap:0.5rem">
+        <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
+      </div>
+    </div>
+
+    <div class="project-hero-img reveal-scale reveal-delay-2">
+      <img src="../images/cryptosell.png" alt="Cryptosell" />
+    </div>
+
+    <div class="container reveal reveal-delay-3" style="max-width:48rem; margin-top:3.5rem; display:flex; flex-direction:column; gap:2.5rem">
+      <section>
+        <h2 class="font-display text-3xl tracking-tight" style="margin:0">Задача</h2>
+        <p class="text-muted" style="margin:0.75rem 0 0">Сверстать понятный UI обмена: списки валют, курсы и подсказки.</p>
+      </section>
+      <section>
+        <h2 class="font-display text-3xl tracking-tight" style="margin:0">Что сделано</h2>
+        <ul class="done-list">
+          <li>Двухколоночный выбор «Отправляете / Получаете»</li><li>Список крипто и фиатных направлений</li><li>Подсказки и акценты курса</li><li>Чистый, сервисный интерфейс</li>
+        </ul>
+      </section>
+      <section>
+        <h2 class="font-display text-3xl tracking-tight" style="margin:0">Технологии</h2>
+        <p class="text-muted" style="margin:0.75rem 0 0">HTML, CSS, JavaScript</p>
+      </section>
+      <a href="../index.html#contact" class="btn btn-primary btn-lg">Обсудить похожий проект</a>
+    </div>
+  </article>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div style="display:flex; align-items:center; gap:0.75rem">
+        <span class="logo-mark" style="width:2rem;height:2rem;font-size:0.7rem">DE</span>
+        <span class="text-sm">DeterminEd · Эдуард</span>
+      </div>
+      <p class="text-sm text-muted" style="margin:0">Frontend / WordPress / Tilda</p>
+    </div>
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>
